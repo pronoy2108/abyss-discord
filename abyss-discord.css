@@ -1,0 +1,153 @@
+/* META {"name":"Abyss Mode","description":"An abyss theme for Discord","author":"pronoy2108","version":"1.0"}* */
+
+/* Base colors */
+:root {
+  --background-primary: #000c18;
+  --background-secondary: #060621;
+  --background-tertiary: #051336;
+  --background-accent: #10192c;
+  --background-floating: #082050;
+  --text-normal: #6688cc;
+  --text-muted: #72767d;
+  --text-link: #00b0f4;
+  --interactive-normal: #b9bbbe;
+  --interactive-hover: #dcddde;
+  --interactive-active: #ffffff;
+  --interactive-muted: #4f545c;
+}
+
+/* App background */
+.appMount-3lHmkl {
+  background-color: var(--background-primary) !important;
+}
+
+/* Sidebar */
+.sidebar-2K8pFh {
+  background-color: var(--background-secondary) !important;
+}
+
+/* Server list */
+.guildsWrapper-5TJh6A {
+  background-color: var(--background-tertiary) !important;
+}
+
+/* Channel list */
+.channels-Ie2l6A {
+  background-color: var(--background-secondary) !important;
+}
+
+/* Chat area */
+.chat-3bRxxu {
+  background-color: var(--background-primary) !important;
+}
+
+/* Message box */
+.chatContent-a9vAAp {
+  background-color: var(--background-accent) !important;
+}
+
+/* User list */
+.membersWrap-2h-GB4 {
+  background-color: var(--background-secondary) !important;
+}
+
+/* User popout */
+.userPopout-3XzG_A {
+  background-color: var(--background-floating) !important;
+}
+
+/* User profile modal */
+.userProfileModal-1D0hpy {
+  background-color: var(--background-floating) !important;
+}
+
+/* Text color */
+.colorStandard-2KCXvj, .headerNormal-T_seeN, .username-1A8OIy, .messageContent-2qWWxC, .markup-2BOw-j, .roleColor-rz2vM0, .activityText-sLG0Qx, .customStatusText-3hwfK1, .userPopoutCustomStatusText-3Pzjus, .userPopoutCustomStatusEmoji-PmMLcI, .userPopoutActivityText-uqZusx, .userPopoutActivityEmoji-u7YrLF, .userProfileModalHeaderActivityText--o7NH6, .userProfileModalHeaderActivityEmoji--1cMd8, .userProfileModalHeaderActivityTextInner--2w4dQO {
+  color: var(--text-normal) !important;
+}
+
+/* Muted text color */
+.colorHeaderSecondary-jySUyq, .colorHeaderSecondary-3Sp3Ft, .colorMuted-HdFt4q, .colorMuted-1MOOFV, .colorMuted-3dWx4l, .colorMuted-2yjJUI, .timestampCozy-2hLAPV, .timestampCompact-1eyckA, .timestampCompact-RmXyN_, .timestampCozy-jjW0G9, .activityFeedEmptyStateHint-nrcsMR, .activityFeedEmptyStateDescription-nrcsMR {
+  color: var(--text-muted) !important;
+}
+
+/* Link color */
+.anchorUnderlineOnHover-1GkFnj:hover, a {
+  color: var(--text-link) !important;
+}
+
+/* Normal button color */
+.buttonColor-7qQbGO {
+  color: var(--interactive-normal) !important;
+}
+
+/* Hover button color */
+.buttonColorHovered-1YFSW_ {
+  color: var(--interactive-hover) !important;
+}
+
+/* Active button color */
+.buttonColorSelected-3htE4_ {
+  color: var(--interactive-active) !important;
+}
+
+/* Muted button color */
+.buttonColorDisabled-dlOjhg {
+  color: var(--interactive-muted) !important;
+}
+
+/* Editor area */
+.editorWrapper-3XJGkC > div > div > div > div > div:nth-child(2), 
+.editorWrapper-3XJGkC > div > div > div > div > div:nth-child(3), 
+.editorWrapper-3XJGkC > div > div > div > div > div:nth-child(4), 
+.editorWrapper-3XJGkC > div > div > div > div > div:nth-child(5), 
+.editorWrapper-3XJGkC > div > div > div > div > div:nth-child(6), 
+.editorWrapper-3XJGkC > div > div > div > div > div:nth-child(7) {
+  background-color: var(--editor-background) !important;
+}
+
+/* Editor text */
+.editorWrapper-3XJGkC > div > div > div > div > div:nth-child(2) > textarea, 
+.editorWrapper-3XJGkC > div > div > div > div > div:nth-child(3) > textarea, 
+.editorWrapper-3XJGkC > div > div > div > div > div:nth-child(4) > textarea, 
+.editorWrapper-3XJGkC > div > div > div > div > div:nth-child(5) > textarea, 
+.editorWrapper-3XJGkC > div > div > div > div > div:nth-child(6) > textarea, 
+.editorWrapper-3XJGkC > div > div > div > div > div:nth-child(7) > textarea {
+  color: var(--editor-foreground) !important;
+}
+
+/* Editor selection */
+.editorWrapper-3XJGkC .slateTextArea-1Mkdgw::selection, 
+.editorWrapper-3XJGkC .slateTextArea-1Mkdgw *::selection {
+  background-color: var(--editor-selectionBackground) !important;
+}
+
+/* Editor line highlight */
+.editorWrapper-3XJGkC .slateTextArea-1Mkdgw .markup-2BOw-j {
+  background-color: var(--editor-lineHighlightBackground) !important;
+}
+
+/* Editor cursor */
+.editorWrapper-3XJGkC .slateTextArea-1Mkdgw .cursor-3o9vE7 {
+  border-left-color: var(--editorCursor-foreground) !important;
+}
+
+/* Title bar */
+.titleBar-AC4pGV {
+  background-color: var(--titleBar-activeBackground) !important;
+}
+
+/* Activity bar */
+.activityBar-1dDjP2 {
+  background-color: var(--activityBar-background) !important;
+}
+
+/* Side bar */
+.sidebarRegionScroller-3MXcoP {
+  background-color: var(--sideBar-background) !important;
+}
+
+/* Status bar */
+.statusBar-2xqfmr {
+  background-color: var(--statusBar-background) !important;
+}
